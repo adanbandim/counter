@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(161, 161, 161);   
+}
+
+/* Visor e caixa de contagem */
+
+.box{
+    background-color: rgb(56, 56, 56);
+    color: rgb(254, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.visor{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+/* Botoes inhoes*/
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons :hover{
+    background-color: rgb(118, 115, 115);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.aviso {
+    display: none;
+}
